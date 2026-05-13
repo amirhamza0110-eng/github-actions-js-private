@@ -15,3 +15,8 @@ test('multiplies two numbers', () => {
 test('divide two numbers', () => {
   expect(divide(6, 3)).toBe(2);
 });
+
+test('divide by zero', () => {
+  e
+  xpect(() => divide(6, 0)).toThrow('Cannot divide by zero');
+});
