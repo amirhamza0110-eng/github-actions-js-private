@@ -18,6 +18,8 @@ function divide(a, b) {
 }
 
 
+
+// সবগুলো ফাংশন একসঙ্গে এক্সপোর্ট করা হলো
 module.exports = {
   add,
   subtract,
