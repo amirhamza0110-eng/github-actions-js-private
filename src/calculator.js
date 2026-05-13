@@ -14,9 +14,11 @@ function divide(a, b) {
   if (b === 0) {
     throw new Error('Cannot divide by zero');
   }
+  if (b === 0) {
+    throw new Error('Cannot divide by zero');
+  }
   return a / b;
 }
-
 
 
 // সবগুলো ফাংশন একসঙ্গে এক্সপোর্ট করা হলো
